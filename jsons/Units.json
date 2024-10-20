@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Warrior Monk",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"uniqueTo": "Knights Templar",
+		"replaces": "Warrior",
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Templar",
+		"uniques" : ["May upgrade to [Templar] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Devout Warrior, only anwers to God."}
+		]
+	},
+	{
+		"name": "Templar",
+		"unitType": "Sword",
+		"uniqueTo": "Knights Templar",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 65,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Legendary Knights Templar, sword of God, voice of millions."}
+		]
+	}
+]
