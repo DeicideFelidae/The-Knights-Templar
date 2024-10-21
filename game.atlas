@@ -1,40 +1,68 @@
 
 game.png
-size: 128, 512
+size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Knights Templar
   rotate: false
-  xy: 4, 398
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Guardsman
+  rotate: false
+  xy: 544, 23
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Ranger
+  rotate: false
+  xy: 647, 23
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Templar
   rotate: false
-  xy: 4, 93
+  xy: 750, 23
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Warrior Monk
   rotate: false
-  xy: 4, 4
+  xy: 853, 23
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
+UnitIcons/Guardsman
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ranger
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Templar
   rotate: false
-  xy: 4, 290
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior Monk
   rotate: false
-  xy: 4, 182
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

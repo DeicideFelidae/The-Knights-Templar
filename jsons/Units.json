@@ -2,17 +2,17 @@
 	{
 		"name": "Warrior Monk",
 		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
+		"movement": 3,
+		"strength": 10,
 		"uniqueTo": "Knights Templar",
 		"replaces": "Warrior",
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Templar",
-		"uniques" : ["May upgrade to [Templar] through ruins-like effects"],
+		"uniques": [ "May upgrade to [Templar] through ruins-like effects" ],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "Devout Warrior, only anwers to God."}
+		"civilopediaText": [
+			{ "text": "Devout Warrior, only anwers to God." }
 		]
 	},
 	{
@@ -20,8 +20,8 @@
 		"unitType": "Sword",
 		"uniqueTo": "Knights Templar",
 		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
+		"movement": 3,
+		"strength": 15,
 		"cost": 65,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -30,7 +30,35 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Legendary Knights Templar, sword of God, voice of millions."}
+			{ "text": "Legendary Knights Templar, sword of God, voice of millions." }
 		]
+	},
+	{
+		"name": "Guardsman",
+		"unitType": "Sword",
+		"uniqueTo": "Knights Templar",
+		"replaces": "Spearman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 55,
+		"requiredTech": "Bronze Working",
+		"obsoletTech": "Civil Service",
+		"upgradesTo": "Pikemen",
+		"uniques": [ "[+75]% Strength <vs [Mounted] units>" ],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ranger",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 35,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "Knights Templar",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
 	}
 ]
