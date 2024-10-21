@@ -43,7 +43,7 @@
 		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoletTech": "Civil Service",
-		"upgradesTo": "Pikemen",
+		"upgradesTo": "Pikeman",
 		"uniques": [ "[+75]% Strength <vs [Mounted] units>" ],
 		"attackSound": "metalhit"
 	},
